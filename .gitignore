@@ -31,9 +31,12 @@ pip-log.txt
 .tox
 nosetests.xml
 
-private/*
 
+.email_password.txt
+.db_password.txt
 local_settings.py
+
+private/*
 
 media/*
 
