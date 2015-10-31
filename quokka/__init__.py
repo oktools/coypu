@@ -1,14 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-VERSION = (0, 2, 0)
+VERSION = (0, 1, 0)
 
 __version__ = ".".join(map(str, VERSION))
-__status__ = "Alpha"
-__description__ = "Flexible & modular CMS powered by Flask and MongoDB"
-__author__ = "Bruno Rocha <rochacbruno@gmail.com>"
-__email__ = "quokka-developers@googlegroups.com"
+__status__ = "pre-Alpha"
+__description__ = "Hack of Quokka (398be6f9a2bbccb4cf96e17f422b1c2fad6a57f9) \
+                   for personal use"
+__author__ = "Daniel H. Morgan <dhm@streamgardens.com>"
+__email__ = "dhm@streamgardens.com"
 __license__ = "MIT License"
-__copyright__ = "Copyright 2014, Quokka Project"
+__copyright__ = "Copyright 2015, Open Knowledge Tools"
 
 
 try:
