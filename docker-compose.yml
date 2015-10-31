@@ -3,7 +3,7 @@ mongo:
     ports:
       - "27017:27017"
     volumes:
-      - ./etc/mongodata:/data/db
+      - /var/data/mongo:/data/db
 
 web:
     restart: always
