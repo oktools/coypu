@@ -1,3 +1,5 @@
+*.~
+
 *.py[cod]
 *.cfg
 
@@ -29,31 +31,10 @@ pip-log.txt
 .tox
 nosetests.xml
 
-.email_password.txt
-.db_password.txt
-local_settings.py
-# Translations
-*.mo
+private/*
 
-*.nja
+local_settings.py
 
 media/*
 
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
-
-# VIM
-.ropeproject
-*.swp
-
 quokka/mediafiles
-etc/elasticdata/elasticsearch
-etc/mongodata/journal
-etc/mongodata/_tmp
-etc/mongodata/*.0
-etc/mongodata/*.ns
-etc/mongodata/*.lock
-etc/mongodata/*.bson
-etc/logs/*.log
