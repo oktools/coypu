@@ -7,7 +7,7 @@ mongo:
 
 web:
     restart: always
-    image: quokka/quokkadev
+    image: oktools/coypu
     working_dir: /quokka
     ports:
         - "80:5000"
