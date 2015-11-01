@@ -1,31 +1,24 @@
 {
     "users": [
         {
-            "name" : "admin",
-            "email" : "admin@example.com",
-            "gravatar_email": "rochacbruno+quokka@gmail.com",
-            "password" : "admin",
+            "name" : "dhmorgan",
+            "email" : "dhmorgan@streamgardens.com",
+            "gravatar_email": "dharrimanmorgan@gmail.com",
+            "password" : "opensesame",
             "roles" : [ "admin" ],
-            "bio": "Quokka Example Admin",
-            "tagline": "Quokka is the best CMS!",
+            "bio": "I was born. I have lived. I am.",
+            "tagline": "Quokka is still the best CMS!",
             "links": [
                 {
-                    "title" : "facebook",
-                    "link" : "http://facebook.com/quokkaproject",
-                    "icon" : "facebook",
-                    "css_class" : "facebook",
-                    "order" : 0
-                },
-                {
                     "title" : "github",
-                    "link" : "http://github.com/quokkaproject",
+                    "link" : "https://github.com/oktools",
                     "icon" : "github",
                     "css_class" : "github",
                     "order" : 0
                 },
                 {
                     "title" : "twitter",
-                    "link" : "http://twitter.com/quokkaproject",
+                    "link" : "https://twitter.com/danielhmorgan",
                     "icon" : "twitter",
                     "css_class" : "twitter",
                     "order" : 0
@@ -40,27 +33,27 @@
             "values": [
                {
                    "name": "site_name",
-                   "rawvalue": "Quokka website",
+                   "rawvalue": "Streamgardens",
                    "formatter": "text"
                },
                {
                    "name": "site_keywords",
-                   "rawvalue": "cms,quokka,flask,mongo,python",
+                   "rawvalue": "streamgardens,oktools,quokka",
                    "formatter": "text"
                },
                {
                    "name": "site_description",
-                   "rawvalue": "The Happiest CMS in the World",
+                   "rawvalue": "nice streams",
                    "formatter": "text"
                },
                {
                    "name": "site_tagline",
-                   "rawvalue": "The Happiest CMS in the World",
+                   "rawvalue": "don't be an insect caught a web",
                    "formatter": "text"
                },
                {
                    "name": "site_author",
-                   "rawvalue": "Bruno Rocha",
+                   "rawvalue": "Daniel H. Morgan",
                    "formatter": "text"
                },
                {
@@ -75,12 +68,13 @@
                },
                {
                    "name": "menu_items",
-                   "rawvalue":"[[\"Quokka CMS\", \"http://www.quokkaproject.org\"], [\"Slack Chat\", \"https://quokkaslack.herokuapp.com/\"]]",
+                   "rawvalue":"[[\"Streamgardens\", \"http://www.streamgardens.com\"],",
                    "formatter": "json"
                },
                {
                    "name": "social_items",
-                   "rawvalue":"[[\"github\", \"http://github.com/quokkaproject\"], [\"twitter\", \"https://twitter.com/quokkaproject/\"]]",
+                   "rawvalue":"[[\"github\", \"http://github.com/oktols\"], \
+                       [\"twitter\", \"https://twitter.com/danielhmorgan/\"]]",
                    "formatter": "json"
                }
             ]
@@ -91,7 +85,7 @@
             "values": [
                {
                    "name": "system",
-                   "rawvalue": "disqus",
+                   "rawvalue": "internal",
                    "formatter": "text"
                },
                {
@@ -101,12 +95,12 @@
                },
                {
                    "name": "disqus_shortname",
-                   "rawvalue": "quokkaexample",
+                   "rawvalue": "streamgardens",
                    "formatter": "text"
                },
                {
                    "name": "requires_login",
-                   "rawvalue": "0",
+                   "rawvalue": "1",
                    "formatter": "int"
                }
             ]
