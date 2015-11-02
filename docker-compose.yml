@@ -23,3 +23,30 @@ web:
         - WAIT_SLEEP=3
         - WAIT_LOOPS=50
     mem_limit: 1000000000
+
+prompt:
+    image: oktools/coypu
+    working_dir: /quokka
+    volumes:
+        - .:/quokka
+    links:
+        - mongo:mongo
+    environment:
+        - QUOKKA_MONGODB_HOST=mongo
+    mem_limit: 1000000000
+
+pyshell:
+    image: oktools/coypu
+    working_dir: /quokka
+    volumes:
+        - .:/quokka
+    links:
+        - mongo:mongo
+    command: python manage.py shell
+    environment:
+        - QUOKKA_MONGODB_HOST=mongo
+        - WAIT_COMMAND=$(nc -zv mongo 27017)
+        - WAIT_START_CMD=python manage.py shell
+        - WAIT_SLEEP=2
+        - WAIT_LOOPS=30
+    mem_limit: 1000000000
